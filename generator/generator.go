@@ -137,8 +137,8 @@ FindGoType:
 		td.GoType = "int32"
 		td.GQLType = "int32"
 	case "Float":
-		td.GoType = "float32"
-		td.GQLType = "float32"
+		td.GoType = "float64"
+		td.GQLType = "float64"
 	case "ID":
 		td.GoType = "string"
 		td.GQLType = "graphql.ID"
